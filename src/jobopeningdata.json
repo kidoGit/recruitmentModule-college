@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "id": "MDjTNqe",
+      "name": "Engineering",
+      "jobs": [
+        {
+          "jobTitle": "Data Analyst",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "Not Required"
+        },
+        {
+          "jobTitle": "Dev Ops Engineer",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "2+"
+        },
+        {
+          "jobTitle": "Data Analyst",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "Not Required"
+        }
+      ]
+    },
+    {
+      "id": "MDaTNye",
+      "name": "Design",
+      "jobs": [
+        {
+          "jobTitle": "Data Analyst",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "Not Required"
+        },
+        {
+          "jobTitle": "Dev Ops Engineer",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "2+"
+        },
+        {
+          "jobTitle": "Data Analyst",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "Not Required"
+        }
+      ]
+    },
+    {
+      "id": "MDaTaye",
+      "name": "BA",
+      "jobs": [
+        {
+          "jobTitle": "Data Analyst",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "Not Required"
+        },
+        {
+          "jobTitle": "Dev Ops Engineer",
+          "qualification": "BE/ME",
+          "skills": "Java, Angular, Spring, MongoDB",
+          "experience": "2+"
+        }
+      ]
+    },
+    {
+      "id": "CauVGSI",
+      "name": "Campus Placements",
+      "jobs": [
+        {
+          "jobTitle": "Management",
+          "qualification": "BBA, MBA, PGPX",
+          "skills": "CS",
+          "experience": "0"
+        },
+        {
+          "jobTitle": "fff",
+          "qualification": "fff",
+          "skills": "fff",
+          "experience": "ffff"
+        }
+      ]
+    }
+  ]
+}

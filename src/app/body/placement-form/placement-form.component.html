@@ -1,0 +1,68 @@
+<div class="container content">
+  <div class="row">
+    <div class="col-lg-2">
+
+    </div>
+    <div class="col-lg-8">
+      <app-job-description></app-job-description>
+
+      <br>
+
+      <h2 class="text-center">Placement Form </h2>
+      <hr>
+      <form #userData="ngForm" (ngSubmit)="onSubmit(userData.value)">
+        <div class="form-group">
+
+          <label for="position">Position</label>
+          <input type="text" class="form-control" id="position" name="position" value="{{position}}" readonly [(ngModel)]="position">
+        </div>
+        <div class="form-group">
+
+          <label for="nameOfUniversity">Name of University</label>
+          <input #nameOfUniversity="ngModel" type="text" class="form-control" id="nameOfUniversity" name="nameOfUniversity" ngModel
+            required>
+          <span *ngIf="!nameOfUniversity.valid && nameOfUniversity.touched" class="help-block">Please enter valid university name!</span>
+        </div>
+        <div class="form-group">
+
+          <label for="nameOfInstitute">Name of Institute</label>
+          <input #nameOfInstitute="ngModel" type="text" class="form-control" id="nameOfInstitute" name="nameOfInstitute" ngModel required>
+          <span *ngIf="!nameOfInstitute.valid && nameOfInstitute.touched" class="help-block">Please enter valid institute name!</span>
+        </div>
+        <div class="form-group">
+          <label for="placementCoName">Name of Placement Co-ordinator</label>
+          <input #placementCoName="ngModel" type="text" class="form-control" id="placementCoName" name="placementCoName" ngModel required>
+          <span *ngIf="!placementCoName.valid && placementCoName.touched" class="help-block">Please enter valid co-ordinator name!</span>
+        </div>
+        <div class="form-group">
+          <label for="phone">Contact Number</label>
+          <input #phone="ngModel" pattern="[0-9]{10}" type="number" class="form-control" id="phone" name="phone" ngModel required>
+          <span *ngIf="!phone.valid && phone.touched" class="help-block">Please enter valid phone number!</span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input #email="ngModel" type="email" class="form-control" id="email" name="email" ngModel required email>
+          <span *ngIf="!email.valid && email.touched" class="help-block">Please enter valid email!</span>
+        </div>
+        <div class="form-group">
+          <label for="degree">Degree/Program</label>
+          <input #degree="ngModel" type="text" class="form-control" id="degree" name="degree" ngModel required>
+          <span *ngIf="!degree.valid && degree.touched" class="help-block">Please enter valid degree name!</span>
+        </div>
+        <div class="form-group">
+          <label for="yearOfPassing">Year of Passing</label>
+          <input type="number" pattern="[0-9]{4}" class="form-control" id="yearOfPassing" name="yearOfPassing" ngModel required>
+          <span *ngIf="!yearOfPassing.valid && yearOfPassing.touched" class="help-block">Please enter valid year of passing!</span>
+        </div>
+        <div class="form-group">
+          <label for="file">Student List</label>
+          <input type="file" class="form-control-file" id="file">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="col-lg-2">
+
+    </div>
+  </div>

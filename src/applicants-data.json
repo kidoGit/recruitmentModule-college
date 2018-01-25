@@ -1,0 +1,98 @@
+{
+  "Data": [
+  {
+  "name": "Ayush Patel",
+  "email": "ayushpatel@gmail.com",
+  "phone": 8347947377,
+  "dob": "18/05/1998",
+  "radio": "Male",
+  "hometown": "Gandhinagar",
+  "city": "Gandhinagar",
+  "status": "Fresher",
+  "id": "vOusFCN"
+  },
+  {
+  "name": "Poonamkumar Parekh",
+  "email": "pkparekh@gmail.com",
+  "phone": 1234567890,
+  "dob": "19-04-1997",
+  "radio": "Male",
+  "hometown": "Rajkot",
+  "city": "Gandhinagar",
+  "status": "Working",
+  "current_ctc": 25000,
+  "expected_ctc": 50000,
+  "role": "Senior Software Engineer",
+  "notice": 90,
+  "exp": 5,
+  "relExp": 5,
+  "id": "~2XqYoX"
+  },
+  {
+  "name": "Monika Vadodariya",
+  "email": "monikav@gmail.com",
+  "position": "QA",
+  "phone": 9846736378,
+  "dob": "18/05/1998",
+  "radio": "female",
+  "hometown": "Surat",
+  "city": "Gandhinagar",
+  "status": "Fresher",
+  "id": "mORvRKa"
+  },
+  {
+  "name": "Jay Patel",
+  "email": "jaypatel@gmail.com",
+  "position": "Designer",
+  "phone": 9846736378,
+  "dob": "15/10/1996",
+  "radio": "Male",
+  "hometown": "Maharastra",
+  "city": "Gandhinagar",
+  "status": "Fresher",
+  "id": "THM~HkW"
+  },
+  {
+  "name": "Smeet Panchal",
+  "email": "smeetpanchal@gmail.com",
+  "position": "Business Analyst",
+  "phone": 1234567890,
+  "dob": "19-04-1997",
+  "radio": "Male",
+  "hometown": "Ahmedabad",
+  "city": "Gandhinagar",
+  "status": "Working",
+  "current_ctc": 55000,
+  "expected_ctc": 500000,
+  "role": "Senior Technical Lead",
+  "notice": 90,
+  "exp": 15,
+  "relExp": 10,
+  "id": "5gdOCCZ"
+  },
+  {
+  "name": "Shailendra Shukla",
+  "position": "Business Analyst",
+  "email": "jaypatel@gmail.com",
+  "phone": 9846736378,
+  "dob": "15/10/1996",
+  "radio": "Male",
+  "hometown": "Maharastra",
+  "city": "Gandhinagar",
+  "status": "Fresher",
+  "id": "US4MRZD"
+  },
+  {
+  "name": "Shailendra",
+  "position": "Business Analyst",
+  "email": "jaypatel@gmail.com",
+  "phone": 9846736378,
+  "dob": "15/10/1996",
+  "radio": "Male",
+  "hometown": "Maharastra",
+  "city": "Gandhinagar",
+  "status": "Fresher",
+  "id": "US4MRZD"
+  }
+  ]
+  }

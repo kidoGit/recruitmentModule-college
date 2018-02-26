@@ -42,8 +42,6 @@ export class ApplicantdataComponent implements OnInit {
         ],
       rowSelection: "multiple",
       
-      pagination: true,
-      paginationPageSize: 10,
       enableColResize: true
 
     }
@@ -53,7 +51,7 @@ export class ApplicantdataComponent implements OnInit {
     this.gridApi = params.api;
     this.gridColumnApi = params.columnApi;
     this.http
-    .get("http://localhost:5555/Data")
+    .get("http://192.1.200.134:5555/Data")
     .subscribe(data => {
     params.api.setRowData(data);
     });

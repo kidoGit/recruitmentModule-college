@@ -30,21 +30,6 @@
           <span *ngIf="!nameOfInstitute.valid && nameOfInstitute.touched" class="help-block">Please enter valid institute name!</span>
         </div>
         <div class="form-group">
-          <label for="placementCoName">Name of Placement Co-ordinator</label>
-          <input #placementCoName="ngModel" type="text" class="form-control" id="placementCoName" name="placementCoName" ngModel required>
-          <span *ngIf="!placementCoName.valid && placementCoName.touched" class="help-block">Please enter valid co-ordinator name!</span>
-        </div>
-        <div class="form-group">
-          <label for="phone">Contact Number</label>
-          <input #phone="ngModel" pattern="[0-9]{10}" type="number" class="form-control" id="phone" name="phone" ngModel required>
-          <span *ngIf="!phone.valid && phone.touched" class="help-block">Please enter valid phone number!</span>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input #email="ngModel" type="email" class="form-control" id="email" name="email" ngModel required email>
-          <span *ngIf="!email.valid && email.touched" class="help-block">Please enter valid email!</span>
-        </div>
-        <div class="form-group">
           <label for="degree">Degree/Program</label>
           <input #degree="ngModel" type="text" class="form-control" id="degree" name="degree" ngModel required>
           <span *ngIf="!degree.valid && degree.touched" class="help-block">Please enter valid degree name!</span>
@@ -54,6 +39,44 @@
           <input type="number" pattern="[0-9]{4}" class="form-control" id="yearOfPassing" name="yearOfPassing" ngModel required>
           <span *ngIf="!yearOfPassing.valid && yearOfPassing.touched" class="help-block">Please enter valid year of passing!</span>
         </div>
+        <div class="form-group">
+          <label for="collegeWebsite">College Website</label>
+          <input #collegeWebsite="ngModel" type="text" class="form-control" id="collegeWebsite" name="collegeWebsite" ngModel required>
+          <span *ngIf="!collegeWebsite.valid && collegeWebsite.touched" class="help-block">Please enter valid website name!</span>
+        </div>
+        <div class="form-group">
+          <label for="collegeEmail">College Email</label>
+          <input #collegeEmail="ngModel" type="email" class="form-control" id="collegeEmail" name="collegeEmail" ngModel required email>
+          <span *ngIf="!collegeEmail.valid && collegeEmail.touched" class="help-block">Please enter valid email!</span>
+        </div>
+        <div class="form-group">
+            <br><h3>Co-ordinator Details</h3><br>
+          <label for="placementCoName">Name of Placement Co-ordinator</label>
+          <input #placementCoName="ngModel" type="text" class="form-control" id="placementCoName" name="placementCoName" ngModel required>
+          <span *ngIf="!placementCoName.valid && placementCoName.touched" class="help-block">Please enter valid co-ordinator name!</span>
+        </div>
+        <div class="form-group">
+          <label for="placementCoDesignation">Designation of Placement Co-ordinator</label>
+          <input #placementCoDesignation="ngModel" type="text" class="form-control" id="placementCoDesignation" name="placementCoDesignation" ngModel required>
+          <span *ngIf="!placementCoDesignation.valid && placementCoDesignation.touched" class="help-block">Please enter valid co-ordinator designation!</span>
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile Number</label>
+          <input #mobile="ngModel" pattern="[0-9]{10}" type="text" class="form-control" id="mobile" name="mobile" ngModel required>
+          <span *ngIf="!mobile.valid && mobile.touched" class="help-block">Please enter valid mobile number!</span>
+        </div>
+        <div class="form-group">
+          <label for="officeNumber">Office Number</label>
+          <input #officeNumber="ngModel" pattern="[0-9]{8}" type="text" class="form-control" id="officeNumber" name="officeNumber" ngModel required>
+          <span *ngIf="!officeNumber.valid && officeNumber.touched" class="help-block">Please enter valid office number!</span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input #email="ngModel" type="email" class="form-control" id="email" name="email" ngModel required email>
+          <span *ngIf="!email.valid && email.touched" class="help-block">Please enter valid email!</span>
+        </div>
+       
+        
         <div class="form-group">
           <label for="file">Student List</label>
           <input type="file" class="form-control-file" id="file">

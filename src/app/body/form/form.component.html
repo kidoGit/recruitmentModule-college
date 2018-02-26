@@ -159,7 +159,7 @@
             <label for="name">Project Links(If any)</label>
           <div class="form-group" *ngFor="let i of data">
             
-            <input #projectLinks="ngModel" type="url" class="form-control" id="project_links" name="projectLinks" ngModel>
+            <input #projectLinks type="url" class="form-control" id="project_links" name="projectLinks" ngModel value={{i}}>
             <span *ngIf="!projectLinks.valid && projectLinks.touched" class="help-block">Please enter valid Project Links!</span>
           </div>
           <button class="btn btn-primary pull-right" (click)="onAdd()"><span class="fa fa-plus"></span></button>

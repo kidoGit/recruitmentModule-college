@@ -26,16 +26,16 @@ export class CategoryService {
   // private categories =[];
 
   getCategories() {
-    return this.http.get<CategoryModel[]>("http://localhost:2222/categories");
+    return this.http.get<CategoryModel[]>("http://192.1.200.134:2222/categories");
   }
 
   addCategory(value: string, job: string, qualification: string, skills: string, experience: string) {
     const cm: CategoryModel = new CategoryModel('', value, [new JobModel(job, qualification, skills, experience)]);
-    return this.http.post<CategoryModel>("http://localhost:2222/categories", cm);
+    return this.http.post<CategoryModel>("http://192.1.200.134:2222/categories", cm);
   }
 
   updateCategory(categoryModel: CategoryModel) {
-    return this.http.put<CategoryModel>("http://localhost:2222/categories/" + categoryModel.id, categoryModel);
+    return this.http.put<CategoryModel>("http://192.1.200.134:2222/categories/" + categoryModel.id, categoryModel);
   }
 
   addJobByCategory(categoryList: CategoryModel[], category: CategoryModel, jobTitle: string, jobQualification: string, jobSkills: string, jobExperience: string) {
@@ -44,32 +44,32 @@ export class CategoryService {
     for (let i = 0; i < categoryList.length; i++) {
       if (category.id == categoryList[i].id) {
         categoryList[i].jobs.push(new JobModel(jobTitle, jobQualification, jobSkills, jobExperience));
-        return this.http.put<JobModel>("http://localhost:2222/categories/" + category.id, categoryList[i]);
+        return this.http.put<JobModel>("http://192.1.200.134:2222/categories/" + category.id, categoryList[i]);
       }
     }
   }
 
   deleteCategoryById(categoryId: string) {
-    return this.http.delete<CategoryModel>("http://localhost:2222/categories/" + categoryId);
+    return this.http.delete<CategoryModel>("http://192.1.200.134:2222/categories/" + categoryId);
   }
 
   deleteJobById(categoryList: CategoryModel[], i: number, k: number) {
    
       categoryList[i].jobs.splice(k, 1);  
-      return this.http.put<JobModel>("http://localhost:2222/categories/" + categoryList[i].id, categoryList[i]);
+      return this.http.put<JobModel>("http://192.1.200.134:2222/categories/" + categoryList[i].id, categoryList[i]);
     
   }
 
   editJob(categoryList: CategoryModel[], i: number, k: number, newJobTitle: string, newJobQualification: string, newJobSkills: string, newJobExperience: string) {
     categoryList[i].jobs[k] = new JobModel(newJobTitle, newJobQualification, newJobSkills, newJobExperience);
-    return this.http.put<JobModel>("http://localhost:2222/categories/" + categoryList[i].id, categoryList[i]);
+    return this.http.put<JobModel>("http://192.1.200.134:2222/categories/" + categoryList[i].id, categoryList[i]);
   }
 
   constructor(private http: HttpClient) { }
 
-  onSubmit(value,position){
+  onSubmit(value){
 
-    this.http.post("http://localhost:5555/applicantsData", value).subscribe((res:Response)=>{
+    this.http.post("http://192.1.200.134:5555/applicantsData", value).subscribe((res:Response)=>{
           console.log("Added");
     });
   }

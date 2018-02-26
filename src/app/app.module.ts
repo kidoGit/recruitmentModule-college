@@ -1,3 +1,4 @@
+import { PlacementDataService } from './placement-data.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -20,6 +21,7 @@ import { ApplicantdataComponent } from './body/dashboard/applicantdata/applicant
 import { DashboardComponent } from './body/dashboard/dashboard.component';
 import { AgGridModule } from "ag-grid-angular";
 import { PlacementFormComponent } from './body/placement-form/placement-form.component';
+import { PlacementDataComponent } from './body/dashboard/placement-data/placement-data.component';
 
 const appRoute: Routes = [
   { path: '', component: JobOpeningComponent },
@@ -30,7 +32,8 @@ const appRoute: Routes = [
     path: 'dashboard', component: DashboardComponent, children: [
       { path: '', redirectTo: 'applicantdata', pathMatch: 'full' },
       { path: 'applicantdata', component: ApplicantdataComponent },
-      { path: 'managejob', component: AddJobOpeningComponent }
+      { path: 'managejob', component: AddJobOpeningComponent },
+      { path: 'placementdata', component: PlacementDataComponent }
     ]
   }
 
@@ -49,7 +52,8 @@ const appRoute: Routes = [
     JobDescriptionComponent,
     ApplicantdataComponent,
     DashboardComponent,
-    PlacementFormComponent
+    PlacementFormComponent,
+    PlacementDataComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +64,8 @@ const appRoute: Routes = [
   ],
   providers: [
     CategoryService,
-    ModalService
+    ModalService,
+    PlacementDataService
   ],
   bootstrap: [AppComponent]
 })

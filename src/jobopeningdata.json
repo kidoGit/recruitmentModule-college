@@ -5,22 +5,16 @@
       "name": "Engineering",
       "jobs": [
         {
-          "jobTitle": "Data Analyst",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
+          "jobTitle": "Programmer Analyst",
+          "qualification": "B.E. / B.Tech / M.E. / M.Tech",
+          "skills": "Java, Angular, Spring, MongoDB, MySQL",
           "experience": "Not Required"
         },
         {
-          "jobTitle": "Dev Ops Engineer",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
+          "jobTitle": "DevOps Engineer",
+          "qualification": "B.E. / B.Tech",
+          "skills": "Java, C++, ",
           "experience": "2+"
-        },
-        {
-          "jobTitle": "Data Analyst",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
-          "experience": "Not Required"
         }
       ]
     },
@@ -29,22 +23,10 @@
       "name": "Design",
       "jobs": [
         {
-          "jobTitle": "Data Analyst",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
-          "experience": "Not Required"
-        },
-        {
-          "jobTitle": "Dev Ops Engineer",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
-          "experience": "2+"
-        },
-        {
-          "jobTitle": "Data Analyst",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
-          "experience": "Not Required"
+          "jobTitle": "UI / UX Developer",
+          "qualification": "BE / B.Tech",
+          "skills": "Photoshop, Illustrator, HTML, CSS",
+          "experience": "1+"
         }
       ]
     },
@@ -53,15 +35,15 @@
       "name": "BA",
       "jobs": [
         {
-          "jobTitle": "Data Analyst",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
-          "experience": "Not Required"
+          "jobTitle": "Assistant Business Analyst",
+          "qualification": "B.E. / B.Tech / M.E. / M.Tech",
+          "skills": "Technical knowledge, Good communication skills",
+          "experience": "Not required"
         },
         {
-          "jobTitle": "Dev Ops Engineer",
-          "qualification": "BE/ME",
-          "skills": "Java, Angular, Spring, MongoDB",
+          "jobTitle": "Assistant Business Developer",
+          "qualification": "B.E / B.Tech",
+          "skills": "Good communication skills, Business expansion knowledge",
           "experience": "2+"
         }
       ]
@@ -71,16 +53,10 @@
       "name": "Campus Placements",
       "jobs": [
         {
-          "jobTitle": "Management",
-          "qualification": "BBA, MBA, PGPX",
-          "skills": "CS",
-          "experience": "0"
-        },
-        {
-          "jobTitle": "fff",
-          "qualification": "fff",
-          "skills": "fff",
-          "experience": "ffff"
+          "jobTitle": "Programmer Analyst",
+          "qualification": "B.E., B.Tech",
+          "skills": "Java, Angular, Node",
+          "experience": "Not required"
         }
       ]
     }

@@ -49,6 +49,7 @@ export class FormComponent implements OnInit {
     this.categoryService.onSubmit(value);
   }
   onAdd(){
+    //console.log(value);
     this.data.push(1);
   }
 }
